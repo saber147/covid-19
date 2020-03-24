@@ -1,0 +1,21 @@
+uuid: b3673769-2499-4944-9625-107ca66fc724
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_user_geolocation
+    - taxonomy.vocabulary.geoloc_mobile_users
+  module:
+    - geolocation
+id: taxonomy_term.geoloc_mobile_users.field_user_geolocation
+field_name: field_user_geolocation
+entity_type: taxonomy_term
+bundle: geoloc_mobile_users
+label: 'Localisation de l''utilisateur'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

@@ -1,0 +1,21 @@
+uuid: db7fe691-1812-4625-8779-d66146c10062
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_user_phone_number
+    - taxonomy.vocabulary.infected_person_follow
+  module:
+    - telephone
+id: taxonomy_term.infected_person_follow.field_user_phone_number
+field_name: field_user_phone_number
+entity_type: taxonomy_term
+bundle: infected_person_follow
+label: Téléphone
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

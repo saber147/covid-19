@@ -1,0 +1,8 @@
+uuid: b13ab17e-c00b-4039-864a-34442487c204
+langcode: en
+status: true
+dependencies: {  }
+name: 'Suivie Personne infectées'
+vid: infected_person_follow
+description: ''
+weight: 0

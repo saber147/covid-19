@@ -1,0 +1,60 @@
+uuid: 838b189b-de54-45ac-877e-8bd564a6b065
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.region_conter.field_confirmed
+    - field.field.taxonomy_term.region_conter.field_death_number
+    - field.field.taxonomy_term.region_conter.field_recovered
+    - taxonomy.vocabulary.region_conter
+  module:
+    - path
+id: taxonomy_term.region_conter.default
+targetEntityType: taxonomy_term
+bundle: region_conter
+mode: default
+content:
+  field_confirmed:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_death_number:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_recovered:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+hidden:
+  description: true

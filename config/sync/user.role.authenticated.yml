@@ -1,0 +1,36 @@
+uuid: 764eed52-92fb-449b-8bec-18e218cdba3e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'create terms in geoloc_mobile_users'
+  - 'create terms in infected_person_follow'
+  - 'create terms in mobile_app_users'
+  - 'create terms in region_conter'
+  - 'delete terms in geoloc_mobile_users'
+  - 'delete terms in infected_person_follow'
+  - 'delete terms in mobile_app_users'
+  - 'delete terms in region_conter'
+  - 'edit terms in geoloc_mobile_users'
+  - 'edit terms in infected_person_follow'
+  - 'edit terms in region_conter'
+  - 'edit terms in tags'
+  - 'post comments'
+  - 'restful post create_user_by_mobile_data'
+  - 'restful post create_user_location_history'
+  - 'restful post geoloc_infected_cases'
+  - 'restful post region_counter'
+  - 'restful post total_counter'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'

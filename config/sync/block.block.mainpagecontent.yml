@@ -1,0 +1,20 @@
+uuid: 02b4adc3-e19f-460e-b2ce-552d769a2898
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - businessplus_lite
+id: mainpagecontent
+theme: businessplus_lite
+region: banner
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: visible
+visibility: {  }

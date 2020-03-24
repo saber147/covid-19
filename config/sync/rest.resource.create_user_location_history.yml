@@ -1,0 +1,20 @@
+uuid: bc956619-2218-42ac-b2e4-f4f7ffde7995
+langcode: en
+status: true
+dependencies:
+  module:
+    - covid_api
+    - serialization
+    - user
+_core:
+  default_config_hash: xRgbSAV7g86a7L2MQC81wfFTRPCW3XEAZ7C-ixPUlAU
+id: create_user_location_history
+plugin_id: create_user_location_history
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

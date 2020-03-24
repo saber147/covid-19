@@ -1,0 +1,20 @@
+uuid: 6707bd36-0dfe-437f-b68e-b2d3b1a4daff
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_recovered
+field_name: field_recovered
+entity_type: taxonomy_term
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

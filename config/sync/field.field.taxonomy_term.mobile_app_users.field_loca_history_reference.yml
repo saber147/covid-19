@@ -1,0 +1,29 @@
+uuid: 7d52616a-2f7d-411d-8863-688f10f63170
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_loca_history_reference
+    - taxonomy.vocabulary.geoloc_mobile_users
+    - taxonomy.vocabulary.mobile_app_users
+id: taxonomy_term.mobile_app_users.field_loca_history_reference
+field_name: field_loca_history_reference
+entity_type: taxonomy_term
+bundle: mobile_app_users
+label: 'Historique localisation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      geoloc_mobile_users: geoloc_mobile_users
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

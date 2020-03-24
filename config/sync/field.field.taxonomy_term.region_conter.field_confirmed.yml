@@ -1,0 +1,23 @@
+uuid: 8adafc1b-7380-474a-b084-488f0600a7b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_confirmed
+    - taxonomy.vocabulary.region_conter
+id: taxonomy_term.region_conter.field_confirmed
+field_name: field_confirmed
+entity_type: taxonomy_term
+bundle: region_conter
+label: 'Cas Confirmé'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

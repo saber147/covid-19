@@ -1,0 +1,19 @@
+uuid: 9a37caf6-601d-465e-8cda-ac6eb9fb90ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_phone_identifier
+    - taxonomy.vocabulary.geoloc_mobile_users
+id: taxonomy_term.geoloc_mobile_users.field_phone_identifier
+field_name: field_phone_identifier
+entity_type: taxonomy_term
+bundle: geoloc_mobile_users
+label: 'Identifiant téléphone mobile'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,46 @@
+uuid: e0fe5935-6c20-4e74-b906-796ccff890b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.geoloc_mobile_users.field_phone_identifier
+    - field.field.taxonomy_term.geoloc_mobile_users.field_user_geolocation
+    - taxonomy.vocabulary.geoloc_mobile_users
+  module:
+    - geolocation
+    - path
+id: taxonomy_term.geoloc_mobile_users.default
+targetEntityType: taxonomy_term
+bundle: geoloc_mobile_users
+mode: default
+content:
+  field_phone_identifier:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_user_geolocation:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
+    region: content
+  path:
+    type: path
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+hidden:
+  description: true
+  name: true

@@ -1,0 +1,21 @@
+uuid: ea41f1ba-0c06-4263-af5d-25837d6112ba
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'restful post create_user_by_mobile_data'
+  - 'restful post create_user_location_history'
+  - 'restful post geoloc_infected_cases'
+  - 'restful post region_counter'
+  - 'restful post total_counter'
+  - 'search content'
+  - 'use text format restricted_html'

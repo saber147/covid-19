@@ -1,0 +1,19 @@
+uuid: 6d867d96-89fa-4b26-af16-a4686d87280f
+langcode: en
+status: true
+dependencies:
+  module:
+    - geolocation
+    - taxonomy
+id: taxonomy_term.field_user_geolocation
+field_name: field_user_geolocation
+entity_type: taxonomy_term
+type: geolocation
+settings: {  }
+module: geolocation
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

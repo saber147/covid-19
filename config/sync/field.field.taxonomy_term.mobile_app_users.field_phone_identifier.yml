@@ -1,0 +1,19 @@
+uuid: e6fb1254-877d-469f-acf7-166570baac58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_phone_identifier
+    - taxonomy.vocabulary.mobile_app_users
+id: taxonomy_term.mobile_app_users.field_phone_identifier
+field_name: field_phone_identifier
+entity_type: taxonomy_term
+bundle: mobile_app_users
+label: 'Identifiant téléphone mobile'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: 00bd8790-48e5-4913-afc8-5664c6c6ef0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - covid_api
+    - serialization
+    - user
+_core:
+  default_config_hash: De_D3YSKyP6JpAv3XWMhVua_EiPcnPYHJrIbqJeubT0
+id: geoloc_infected_cases
+plugin_id: geoloc_infected_cases
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

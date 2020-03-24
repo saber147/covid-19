@@ -1,0 +1,23 @@
+uuid: b8bd01d8-0dbf-43f5-a7b7-d8ee23dbb97b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_death_number
+    - taxonomy.vocabulary.region_conter
+id: taxonomy_term.region_conter.field_death_number
+field_name: field_death_number
+entity_type: taxonomy_term
+bundle: region_conter
+label: 'Nombre de more'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

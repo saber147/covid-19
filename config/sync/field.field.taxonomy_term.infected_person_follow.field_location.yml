@@ -1,0 +1,21 @@
+uuid: f701d666-4a00-448a-8bdb-0e0c95f9da22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_location
+    - taxonomy.vocabulary.infected_person_follow
+  module:
+    - geolocation
+id: taxonomy_term.infected_person_follow.field_location
+field_name: field_location
+entity_type: taxonomy_term
+bundle: infected_person_follow
+label: Localisation
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

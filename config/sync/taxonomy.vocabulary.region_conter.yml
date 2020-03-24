@@ -1,0 +1,8 @@
+uuid: 911665a0-ee74-4289-9a24-d938e9e3fbcf
+langcode: en
+status: true
+dependencies: {  }
+name: 'Conteur Par région'
+vid: region_conter
+description: ''
+weight: 0

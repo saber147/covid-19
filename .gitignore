@@ -1,0 +1,6 @@
+/vendor
+/sites/*/files
+/.idea
+/.env
+/core
+/modules/contrib/

@@ -1,0 +1,21 @@
+uuid: 06891cb8-ac01-4063-ae44-abcccdc6f830
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_user_phone_number
+    - taxonomy.vocabulary.mobile_app_users
+  module:
+    - telephone
+id: taxonomy_term.mobile_app_users.field_user_phone_number
+field_name: field_user_phone_number
+entity_type: taxonomy_term
+bundle: mobile_app_users
+label: Téléphone
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

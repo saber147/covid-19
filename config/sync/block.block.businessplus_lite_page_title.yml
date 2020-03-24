@@ -1,0 +1,20 @@
+uuid: a9071958-97cc-4406-9b65-2a2c4d95d832
+langcode: en
+status: true
+dependencies:
+  theme:
+    - businessplus_lite
+_core:
+  default_config_hash: C5Gar9QtDBz7ggDi3KEQ0DWDdll6WewzwQ9rOjVNYGQ
+id: businessplus_lite_page_title
+theme: businessplus_lite
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

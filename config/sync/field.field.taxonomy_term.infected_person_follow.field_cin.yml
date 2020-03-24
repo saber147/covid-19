@@ -1,0 +1,19 @@
+uuid: 6b419972-76cd-4da1-9c63-16405d939805
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_cin
+    - taxonomy.vocabulary.infected_person_follow
+id: taxonomy_term.infected_person_follow.field_cin
+field_name: field_cin
+entity_type: taxonomy_term
+bundle: infected_person_follow
+label: CIN
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

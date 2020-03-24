@@ -1,0 +1,8 @@
+uuid: 6b7a1855-afed-47ba-b4fd-e46d60942380
+langcode: en
+status: true
+dependencies: {  }
+name: 'Localisation utilisateurs mobiles'
+vid: geoloc_mobile_users
+description: ''
+weight: 0

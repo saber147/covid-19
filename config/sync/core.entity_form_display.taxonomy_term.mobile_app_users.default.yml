@@ -1,0 +1,83 @@
+uuid: 3ac0d1fc-8b26-4310-ad3f-eca5b996d275
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.mobile_app_users.field_cin
+    - field.field.taxonomy_term.mobile_app_users.field_loca_history_reference
+    - field.field.taxonomy_term.mobile_app_users.field_phone_identifier
+    - field.field.taxonomy_term.mobile_app_users.field_user_phone_number
+    - field.field.taxonomy_term.mobile_app_users.field_user_prename
+    - taxonomy.vocabulary.mobile_app_users
+  module:
+    - path
+    - telephone
+id: taxonomy_term.mobile_app_users.default
+targetEntityType: taxonomy_term
+bundle: mobile_app_users
+mode: default
+content:
+  field_cin:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_loca_history_reference:
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_phone_identifier:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_user_phone_number:
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_user_prename:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+hidden:
+  description: true

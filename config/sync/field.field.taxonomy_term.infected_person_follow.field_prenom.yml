@@ -1,0 +1,19 @@
+uuid: 46293005-1de6-4fda-b65d-618e6fa8b1d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_prenom
+    - taxonomy.vocabulary.infected_person_follow
+id: taxonomy_term.infected_person_follow.field_prenom
+field_name: field_prenom
+entity_type: taxonomy_term
+bundle: infected_person_follow
+label: Prénom
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

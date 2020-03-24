@@ -1,0 +1,19 @@
+uuid: 8d5259c1-4244-4fd5-93a8-5d9a8fc1d6b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_loca_history_reference
+field_name: field_loca_history_reference
+entity_type: taxonomy_term
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,8 @@
+uuid: 6bda38cc-2eca-4390-8450-0a2aea4990c0
+langcode: en
+status: true
+dependencies: {  }
+name: 'Utilisateurs Application Mobile'
+vid: mobile_app_users
+description: ''
+weight: 0

@@ -1,0 +1,20 @@
+uuid: f619cdef-03aa-4b2b-8c39-cbb2bc895a27
+langcode: en
+status: true
+dependencies:
+  module:
+    - covid_api
+    - serialization
+    - user
+_core:
+  default_config_hash: ljZWC1K7CLQ4UsbCLOvb3MFWfPX4MR3ziCx5ucF3WuU
+id: total_counter
+plugin_id: total_counter
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie
