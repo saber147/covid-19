@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - rest
+    - serialization
+id: create_user_location_history
+plugin_id: create_user_location_history
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

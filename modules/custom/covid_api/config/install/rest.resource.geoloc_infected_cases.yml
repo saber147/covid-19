@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - rest
+    - serialization
+id: geoloc_infected_cases
+plugin_id: geoloc_infected_cases
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

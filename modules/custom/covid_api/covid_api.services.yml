@@ -1,0 +1,4 @@
+services:
+  covid_api.helper:
+    class: Drupal\covid_api\Service\Helper
+    arguments: []

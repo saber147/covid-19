@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - rest
+    - serialization
+id: create_user_by_mobile_data
+plugin_id: create_user_by_mobile_data
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

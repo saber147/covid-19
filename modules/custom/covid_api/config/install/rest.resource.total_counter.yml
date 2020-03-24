@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - rest
+    - serialization
+id: total_counter
+plugin_id: total_counter
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie
