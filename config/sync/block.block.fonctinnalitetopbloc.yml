@@ -1,0 +1,20 @@
+uuid: fc87bbc4-a39a-40bb-903a-72145fbe5f26
+langcode: en
+status: true
+dependencies:
+  module:
+    - covid_api
+  theme:
+    - businessplus_lite
+id: fonctinnalitetopbloc
+theme: businessplus_lite
+region: featured_top
+weight: 0
+provider: null
+plugin: featurs_top
+settings:
+  id: featurs_top
+  label: 'fonctinnalité top bloc'
+  provider: covid_api
+  label_display: '0'
+visibility: {  }

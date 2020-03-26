@@ -1,0 +1,36 @@
+uuid: 2e992b18-1049-43cc-a81d-298080b27273
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.covid_statistics.body
+    - field.field.node.covid_statistics.field_total_confirmed
+    - field.field.node.covid_statistics.field_total_deaths
+    - field.field.node.covid_statistics.field_total_recovered
+    - node.type.covid_statistics
+  module:
+    - text
+    - user
+id: node.covid_statistics.teaser
+targetEntityType: node
+bundle: covid_statistics
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_total_confirmed: true
+  field_total_deaths: true
+  field_total_recovered: true

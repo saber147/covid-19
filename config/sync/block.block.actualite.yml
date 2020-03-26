@@ -1,0 +1,20 @@
+uuid: 7c07b4af-0ee6-4e09-a27d-bc8ba43556f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - covid_api
+  theme:
+    - businessplus_lite
+id: actualite
+theme: businessplus_lite
+region: highlighted_top
+weight: 0
+provider: null
+plugin: last_articles
+settings:
+  id: last_articles
+  label: Actualité
+  provider: covid_api
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,33 @@
+uuid: 8c6dab9e-a121-49ac-b804-f71b30d703f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.feature_bloc
+    - field.field.block_content.feature_bloc.body
+  module:
+    - text
+id: block_content.feature_bloc.default
+targetEntityType: block_content
+bundle: feature_bloc
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

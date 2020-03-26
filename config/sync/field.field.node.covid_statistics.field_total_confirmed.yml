@@ -1,0 +1,23 @@
+uuid: 66daeed2-74e5-4a75-8597-bf04de6d3531
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_confirmed
+    - node.type.covid_statistics
+id: node.covid_statistics.field_total_confirmed
+field_name: field_total_confirmed
+entity_type: node
+bundle: covid_statistics
+label: 'Nombre cas confirmés'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

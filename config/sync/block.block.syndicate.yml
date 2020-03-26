@@ -1,0 +1,21 @@
+uuid: 229e0e83-957c-4f77-adb1-34b2e31e071a
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - businessplus_lite
+id: syndicate
+theme: businessplus_lite
+region: content_top_highlighted
+weight: -7
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: Syndicate
+  provider: node
+  label_display: visible
+  block_count: 10
+visibility: {  }

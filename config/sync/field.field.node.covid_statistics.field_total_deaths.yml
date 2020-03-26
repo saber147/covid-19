@@ -1,0 +1,23 @@
+uuid: 59480b04-3a2a-4459-8d42-bf7f88dfeed2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_deaths
+    - node.type.covid_statistics
+id: node.covid_statistics.field_total_deaths
+field_name: field_total_deaths
+entity_type: node
+bundle: covid_statistics
+label: 'Nombre cas morts'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

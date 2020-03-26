@@ -1,0 +1,23 @@
+uuid: 5fabe5af-602c-443d-b382-c23acd1bf393
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.covid_statistics
+  module:
+    - text
+id: node.covid_statistics.body
+field_name: body
+entity_type: node
+bundle: covid_statistics
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

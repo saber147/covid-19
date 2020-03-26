@@ -616,7 +616,7 @@ function businessplus_lite_preprocess_page(&$variables) {
   $variables['footer_top_background_color'] = theme_get_setting('footer_top_background_color');
   $variables['footer_background_color'] = theme_get_setting('footer_background_color');
   $variables['footer_bottom_background_color'] = theme_get_setting('footer_bottom_background_color');
-  $variables['subfooter_background_color'] = theme_get_setting('subfooter_background_color');
+  $variables['subfooter_background_color'] = 'footer--background-color'; //theme_get_setting('subfooter_background_color');
 
   //Region Separator
   $variables['content_top_highlighted_separator'] = theme_get_setting('content_top_highlighted_separator');

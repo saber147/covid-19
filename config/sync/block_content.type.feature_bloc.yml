@@ -1,0 +1,8 @@
+uuid: c8975bf4-d5aa-4477-a989-e5ec402c9410
+langcode: en
+status: true
+dependencies: {  }
+id: feature_bloc
+label: 'feature bloc'
+revision: 0
+description: ''

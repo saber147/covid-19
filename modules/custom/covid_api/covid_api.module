@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function covid_api_theme() {
+  return array(
+    'corona_in_digits' => array(
+      'variables' => array('items' => NULL),
+      'template' => 'Block/corona-in-digits',
+    ),
+    'corona_news' => array(
+      'variables' => array('items' => NULL),
+      'template' => 'Block/corona-news',
+    ),
+    'footer_top' => array(
+      'variables' => array('items' => NULL),
+      'template' => 'Block/corona-footer-top',
+    ),
+    'corona_features_bloc' => array(
+      'variables' => array('items' => NULL),
+      'template' => 'Block/corona-features',
+    ),
+    'corona_features_top_bloc' => array(
+      'variables' => array('items' => NULL),
+      'template' => 'Block/corona-features-top',
+    ),
+  );
+}

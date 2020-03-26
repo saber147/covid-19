@@ -1,0 +1,20 @@
+uuid: 4e4a2333-672c-4920-8370-19bb005e2e5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - covid_api
+  theme:
+    - businessplus_lite
+id: footertop
+theme: businessplus_lite
+region: footer_top_first
+weight: 0
+provider: null
+plugin: footer_top
+settings:
+  id: footer_top
+  label: 'Footer top'
+  provider: covid_api
+  label_display: '0'
+visibility: {  }

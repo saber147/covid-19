@@ -311,6 +311,10 @@ a.button.button--hover-style-2:before,
   background-color: #a8010f;
 }
 
+.footer--background-color {
+  background-color: #101010;
+}
+
 .region--colored-background .fancy-block-text {
   background-color: #fe2a3c;
 }

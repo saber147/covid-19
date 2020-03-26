@@ -1,0 +1,26 @@
+uuid: 51fb181b-ed94-4213-a6eb-3fd4cdfcca74
+langcode: en
+status: true
+dependencies:
+  module:
+    - covid_api
+    - system
+  theme:
+    - businessplus_lite
+id: coronaindigits
+theme: businessplus_lite
+region: content_top_highlighted
+weight: -9
+provider: null
+plugin: corona_digits
+settings:
+  id: corona_digits
+  label: 'Corona en chiffres '
+  provider: covid_api
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
